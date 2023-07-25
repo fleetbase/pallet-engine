@@ -1,7 +1,6 @@
-# @fleetbase/billing-engine
+# @fleetbase/pallet-engine
 
-[Short description of the addon.]
-
+Pallet is a Fleetbase extension which provides inventory management.
 
 ## Compatibility
 
@@ -13,7 +12,7 @@
 ## Installation
 
 ```
-ember install @fleetbase/billing-engine
+ember install @fleetbase/pallet-engine
 ```
 
 
