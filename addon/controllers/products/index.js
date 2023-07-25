@@ -1,4 +1,4 @@
-import Controller, { inject as controller } from '@ember/controller';
+import Controller from '@ember/controller';
 import { inject as service } from '@ember/service';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
@@ -171,7 +171,7 @@ export default class ProductsIndexController extends Controller {
                 },
                 {
                     label: 'Edit Product',
-                    fn: this.editProduct
+                    fn: this.editProduct,
                 },
             ],
             sortable: false,
@@ -223,6 +223,7 @@ export default class ProductsIndexController extends Controller {
      */
     @action viewProduct(product, options) {
         // do code
+        console.log('viewProduct()', product, options);
     }
 
     /**
@@ -246,6 +247,7 @@ export default class ProductsIndexController extends Controller {
      */
     @action async editProduct(product, options = {}) {
         // do code
+        console.log('editProduct()', product, options);
     }
 
     /**
