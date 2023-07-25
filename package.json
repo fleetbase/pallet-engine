@@ -12,6 +12,9 @@
         "ember-addon",
         "ember-engine"
     ],
+    "fleetbase": {
+        "route": "pallet"
+    },
     "repository": "https://github.com/fleetbase/pallet-engine",
     "license": "MIT",
     "author": "Fleetbase Pte Ltd <hello@fleetbase.io>",
@@ -36,6 +39,7 @@
     "dependencies": {
         "@fleetbase/ember-core": "^0.1.0",
         "@fleetbase/ember-ui": "^0.1.3",
+        "@fleetbase/fleetops-data": "^0.0.6",
         "@fortawesome/ember-fontawesome": "^0.4.1",
         "@fortawesome/fontawesome-svg-core": "^6.4.0",
         "@fortawesome/free-solid-svg-icons": "^6.4.0",
